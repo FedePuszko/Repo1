@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Demo Beautiful Registration Form with HTML5 and CSS3</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="shortcut icon" href=http://www.freshdesignweb.com/wp-content/themes/fv28/images/icon.ico />
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="fdw-demo.css" media="all" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+   
+</head>
+<body>
+ <div class="container">
+
+			<header>
+				<h1>Formulario</h1>
+            </header>       
+      <div  class="form">
+    		<form id="contactform"> 
+    			<p class="contact"><label for="name">Nombre</label></p> 
+    			<input id="name" name="name" placeholder="First and last name" required="" tabindex="1" type="text"> 
+    			 
+    			<p class="contact"><label for="email">Email</label></p> 
+    			<input id="email" name="email" placeholder="ejemplo@domain.com" required="" type="email"> 
+                
+                <p class="contact"><label for="username">Nombre de Usuario</label></p> 
+    			<input id="Usuario" name="Usuario" placeholder="Usuario" required="" tabindex="2" type="text"> 
+    			 
+                <p class="contact"><label for="password">Crear contraseña</label></p> 
+    			<input type="password" id="password" name="password" required=""> 
+                <p class="contact"><label for="repassword">Confirmar contraseña</label></p> 
+    			<input type="password" id="repassword" name="repassword" required=""> 
+<br>
+<br>
+               <fieldset>
+               
+                 <label>Fecha de nacimiento </label>
+                  <label class="Mes"> 
+                  <select class="select-style" name="BirthMonth">
+                  <option value="">Mes</option>
+                  <option  value="01">Enero</option>
+                  <option value="02">February</option>
+                  <option value="03">Marzo</option>
+                  <option value="04">Abril</option>
+                  <option value="05">Mayo</option>
+                  <option value="06">Junio</option>
+                  <option value="07">Julio</option>
+                  <option value="08">Agosto</option>
+                  <option value="09">Septiembre</option>
+                  <option value="10">Octubre</option>
+                  <option value="11">Noviembre</option>
+                  <option value="12" >Diciembre</option>
+                  </label>
+                 </select>    
+                <label>Dia<input class="birthday" maxlength="2" name="BirthDay"  required=""></label>
+                <label>Año <input class="birthyear" maxlength="4" name="BirthYear"  required=""></label>
+              </fieldset>
+  <br>
+            <select class="select-style gender" name="gender">
+            <option value="select">Genero</option>
+            <option value="m">Masculino</option>
+            <option value="f">Femenino</option>
+            <option value="others">Otro</option>
+            </select><br><br>
+            
+            <p class="contact"><label for="phone">Numero telefonico</label></p> 
+            <input id="phone" name="phone" required="" type="text">
+
+             <br>
+             <br>
+            <input class="buttom" name="submit" id="submit" tabindex="5" value="Sign me up!" type="submit"> 	 
+   </form> 
+  </div>       
+</div>
+           
+</body>
+</html>
