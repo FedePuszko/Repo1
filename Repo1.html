@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Demo Beautiful Registration Form with HTML5 and CSS3</title>
+<title>Clase 1 HTML </title>
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
@@ -61,12 +61,13 @@
                 <label>Año <input class="birthyear" maxlength="4" name="BirthYear"  required=""></label>
               </fieldset>
   <br>
-            <select class="select-style gender" name="gender">
-            <option value="select">Genero</option>
-            <option value="m">Masculino</option>
-            <option value="f">Femenino</option>
-            <option value="others">Otro</option>
-            </select><br><br>
+
+                  <p class="Genero"><label for="Genero">Seleccione genero:</label></p> 
+              <form action="">
+                <input type="radio" name="genero" value="male"> Male<br>
+                <input type="radio" name="genero" value="female"> Female<br>
+                <input type="radio" name="genero" value="other"> Other
+              </form>
             
             <p class="contact"><label for="phone">Numero telefonico</label></p> 
             <input id="phone" name="phone" required="" type="text">
